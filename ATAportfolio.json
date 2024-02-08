@@ -1,0 +1,31 @@
+[
+    {
+        "output":"portfolio.html",
+        "maintemplate":"portfoliotemplate.html",
+        "mainrepeat":"<div><H1>{TITLE}</H1><H5>{DATE}</H5><p>{TEXT}</p><ul>{LIST}</ul></div>"
+    },
+    {
+        "TITLE":"TEST1",
+        "DATE":"1976",
+        "TEXT":"Created horrors beyond my comprehension",
+		"LIST":""
+    },
+    {
+        "TITLE":"TEST2",
+        "DATE":"1977",
+        "TEXT":"Witnessed the destruction of life as we know it",
+		"LIST":""
+    },
+    {
+        "TITLE":"TEST3",
+        "DATE":"1978",
+        "TEXT":"Learned to play piano",
+        "LIST":[
+            "<li><a href = \"{LINK}\">{LINKTEXT}</a></li>",
+            {"LINK":"https://www.youtube.com/watch?v=SXNNTN7xaY4","LINKTEXT":"WHAT"},
+            {"LINK":"https://www.youtube.com/watch?v=KEA5TXEsboU","LINKTEXT":"HAVE"},
+            {"LINK":"https://stackoverflow.com/questions/8933237/how-do-i-check-if-a-directory-exists-in-python","LINKTEXT":"I"},
+            {"LINK":"https://www.youtube.com/watch?v=YVSjabimkIY","LINKTEXT":"DONE?"}
+                ]
+    }
+]
